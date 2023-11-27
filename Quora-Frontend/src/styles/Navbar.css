@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar_content > ul > li > img {
+    width: 120px;
+}
+.navbar_content > ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    grid-template-columns: 120px 30px 30px 30px 30px 30px 300px 50px 100px;
+    column-gap: 12px;
+  
+}
+.navbar_content > ul > li{
+    list-style-type: none;
+}
+.icon_size{
+    font-size: 1.7rem !important;
+}
+.navbar_content{
+    background-color: #ffffff;
+    
+}
